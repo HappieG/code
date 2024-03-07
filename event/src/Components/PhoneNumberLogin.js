@@ -10,7 +10,7 @@ const PhoneNumberLogin = () => {
 
   const handleChange = async () => {
     try {
-      const response = await fetch('https://event-server2.onrender.com/saveData', {
+      const response = await fetch('https://server-rust-eight.vercel.app/saveData', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

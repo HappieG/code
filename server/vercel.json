@@ -1,0 +1,17 @@
+{
+    "routes": [
+      {
+        "src": "/api/saveData",
+        "dest": "/saveData.js"
+      },
+      {
+        "src": "/api/*",
+        "dest": "/api/index.js"
+      }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://saniton7navelkar:08322777636@cluster0.hiiwdnw.mongodb.net/",
+      "JWT_SECRET_KEY": "9de83d3831f5b1b269549bbc1795c99727250e2e9aec8a4eb38178a871161bb3"
+    }
+  }
+  

@@ -49,7 +49,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('https://event-server2.onrender.com/api/login', {
+      const response = await fetch('https://server-rust-eight.vercel.app/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
